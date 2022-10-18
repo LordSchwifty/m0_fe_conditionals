@@ -101,7 +101,7 @@ console.log(lovesToPlay && lovesDogPark)
 console.log(lovesToPlay || lovesDogPark)
 
 // Determine if the dog loves to play and is a puppy
-console.log(lovesToplay && age < 1)
+console.log(lovesToPlay && age < 1)
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:I put determine a puppys age to being less than 1 because I have actually been looking at puppies
-// and that seems to be how kennels determine if a dog is a puppy. The statement would be false.
+// ANSWER:I put determine a puppys age to being less than 1 so i used the equation to 
+//ask if the dogs age was less than 1 and likes to play. This statement is false.
