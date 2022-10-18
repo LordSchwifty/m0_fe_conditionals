@@ -74,6 +74,8 @@ if (cupsOfFlour === 1 && hasSauce === true) {
   console.log("I cannot make pizza")
 } else if (cupsOfFlour === 2 && hasSauce === true) {
   console.log("I can make pizza")
-} else if (cupsOfFlour === 3 && hasSauce === true); {
+} else if (cupsOfFlour === 3 && hasSauce === true) {
   console.log("I can make pizza")
+} else   {
+  console.log("no pizza today")
 }
