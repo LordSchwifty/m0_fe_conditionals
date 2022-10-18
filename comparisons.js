@@ -19,7 +19,7 @@ var numberDogs = 0
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
 console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
 // this should log: "Is numberTeachers greater than numberStudents?" false
-
+numberTeachers > numberStudents
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
 
@@ -52,21 +52,24 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // Make sure YOU can explain it that way!
 
 console.log(4 < 9);
-// YOU DO: Explain.
+// YOU DO: This will show the results of 4 being less than 9
 
 var books = 3;
 console.log(4 < books);
-// YOU DO: Explain.
+// YOU DO: the variable number of books is set to 3. The console.log will give the results of whether 4 is 
+// less than the variable number of books. Which should be false.
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.
+// YOU DO: Variables of friends is set to 6, while siblings is set to 4. Console will give results of whethe friends 
+// is greater than siblings which is true.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
-// YOU DO: Explain.
+// YOU DO: variables set to 9 attendees and 8 meals. console says attendees is not strictly equal to meals
+// which I believe is true.
 
 
 // #-------------------
@@ -78,9 +81,9 @@ var finishedHomework = false;
 
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
-console.log(isHungry && finishedHomework);
+console.log(isHungry && finishedHomework); false
 // Determine if the user is hungry or has completed their homework
-console.log(isHungry || finishedHomework);
+console.log(isHungry || finishedHomework); true
 
 var lovesToPlay = true;
 var lovesDogPark = false;
@@ -89,15 +92,16 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark)
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark)
 
 // Determine if the dog loves to play and is a puppy
-
+console.log(lovesToplay && age < 1)
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER:I put determine a puppys age to being less than 1 because I have actually been looking at puppies
+// and that seems to be how kennels determine if a dog is a puppy. The statement would be false.
