@@ -11,10 +11,10 @@
   // if it is snowy, print "coat"
   // if it is icy, print "yak traks"
 
-var weather = "sunny"
+var weather = "sunshine"
 
-if (weather === "sunny") {
-  console.log("sunscreen");
+if (weather === "sunshine") {
+  console.log("find shade");
 } else if (weather === "rainy") {
   console.log("umbrella");
 } else if (weather === "snowy") {
